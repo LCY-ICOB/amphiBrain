@@ -2,7 +2,7 @@
 
 Seurat.object.rotated =  Seurat.object
 
-tsne_coords = Seurat.object, "tsne")
+tsne_coords = Embeddings(Seurat.object, reduction = "tsne")
 
 angle = -128 * pi / 180 
 rotation_matrix = matrix(
