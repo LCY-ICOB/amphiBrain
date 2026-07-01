@@ -1,3 +1,9 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.spatial import KDTree
+from scipy.optimize import minimize
+
 # Python script for rigid registration
 data = pd.read_csv('./centered_X_Y.csv', sep=',')
 
